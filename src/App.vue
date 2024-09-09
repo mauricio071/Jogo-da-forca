@@ -1,34 +1,16 @@
 <template>
   <div id="app">
-    <h1>Jogo da forca WDEV</h1>
+    <h1>Jogo da forca</h1>
 
     <section v-if="tela === 'inicio'" id="inicio">
-      <Formulario
-        v-if="etapa === 'palavra'"
-        title="Defina a palavra"
-        button="Próximo"
-        :action="setPalavra"
-      />
+      <Formulario v-if="etapa === 'palavra'" title="Defina a palavra" button="Próximo" :action="setPalavra" />
 
-      <Formulario
-        v-if="etapa === 'dica'"
-        title="Defina a dica"
-        button="Inicar jogo :)"
-        :action="setDica"
-      />
+      <Formulario v-if="etapa === 'dica'" title="Defina a dica" button="Inicar jogo :)" :action="setDica" />
     </section>
 
     <section v-if="tela === 'jogo'" id="Jogo">
-      <Jogo
-        :erros="erros"
-        :palavra="palavra"
-        :dica="dica"
-        :verificarLetra="verificarLetra"
-        :etapa="etapa"
-        :letras="letras"
-        :jogar="jogar"
-        :reset="reset"
-      />
+      <Jogo :erros="erros" :palavra="palavra" :dica="dica" :verificarLetra="verificarLetra" :etapa="etapa"
+        :letras="letras" :jogar="jogar" :reset="reset" />
     </section>
   </div>
 </template>
@@ -76,20 +58,20 @@ export default {
     },
 
     verificarErros(letra) {
-      if(this.palavra.toLowerCase().indexOf(letra.toLowerCase()) >= 0) {
+      if (this.palavra.toLowerCase().indexOf(letra.toLowerCase()) >= 0) {
         return this.verificarAcertos();
       }
 
       this.erros++
 
-      if(this.erros === 6) {
+      if (this.erros === 6) {
         this.etapa = 'enforcado'
       }
     },
 
     verificarAcertos() {
       let letrasUnicas = [...new Set(this.palavra.toLowerCase().split(''))]
-      if(letrasUnicas.length === (this.letras.length - this.erros)) {
+      if (letrasUnicas.length === (this.letras.length - this.erros)) {
         this.etapa = 'ganhador'
       }
     },

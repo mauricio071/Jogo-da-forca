@@ -1,4 +1,4 @@
-# wdev-jogo-da-forca
+# jogo-da-forca
 
 ## Project setup
 ```

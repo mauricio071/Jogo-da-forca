@@ -1,6 +1,6 @@
 <div align="center"> <h1>Jogo da Forca</h1> </div>
 
-![Preview-Screens](https://github.com/mauricio071/jogo-da-forca/blob/master/jogo-da-forca.png)
+![Preview-Screens](https://github.com/mauricio071/jogo-da-forca/blob/main/jogo-da-forca.png)
 
 ## 📝 Sobre o projeto
 

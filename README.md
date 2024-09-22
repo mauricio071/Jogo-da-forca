@@ -7,7 +7,6 @@
 Neste projeto, foi desenvolvido um jogo da forca usando o Vue.js, com uma interface moderna e responsiva para poder jogar diretamente no navegador.
 
 ## 🛠 Tecnologias utilizadas
-Tecnologias utilizadas neste projeto:
 
 -   **Vue.js** - Framework JavaScript progressivo
 -   **JavaScript** - Linguagem de programação

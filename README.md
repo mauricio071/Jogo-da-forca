@@ -13,6 +13,9 @@ Neste projeto, foi desenvolvido um jogo da forca usando o Vue.js, com uma interf
 -   **HTML** - Estrutura do conteúdo
 -   **CSS** - Estilização da interface
 
+## 🌐 Acesse o projeto online
+Você pode acessar a versão online do projeto [aqui](https://jogo-da-forca-vue.netlify.app).
+
 ## 🖥️ Como configurar o projeto
 Siga os passos abaixo para configurar e executar o projeto em seu ambiente local:
 

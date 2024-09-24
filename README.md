@@ -1,5 +1,13 @@
 <div align="center"> <h1>Jogo da Forca</h1> </div>
 
+<p align="center">
+  <img alt="Github Language Count" src="https://img.shields.io/github/languages/count/mauricio071/jogo-da-forca?color=00bfa6">
+  <img width="1" />
+  <img alt="Github Top Language" src="https://img.shields.io/github/languages/top/mauricio071/jogo-da-forca?color=00bfa6">
+  <img width="1" />
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/mauricio071/jogo-da-forca?color=00bfa6">
+</p>
+
 ![Preview-Screens](https://github.com/mauricio071/jogo-da-forca/blob/main/jogo-da-forca.png)
 
 ## 📝 Sobre o projeto

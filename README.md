@@ -1,5 +1,5 @@
 <div align="center"> <h1>Jogo da Forca</h1> </div>
-
+ 
 <p align="center">
   <img alt="Github Language Count" src="https://img.shields.io/github/languages/count/mauricio071/jogo-da-forca?color=00bfa6">
   <img width="1" />
